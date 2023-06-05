@@ -12,7 +12,7 @@ const data = fetch('https://giedrerag.github.io/44-grupe-class-task/data/service
                         <i class="et-line icon-${services.icon}"></i>
                         <h3 class="service-title">${services.title}</h3>
                         <p class="service-description">${services.desc}</p>
-                        </div>`;
+                    </div>`;
             servicesDOM.innerHTML = HTML
         }
     });
